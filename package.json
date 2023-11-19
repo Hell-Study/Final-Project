@@ -7,18 +7,36 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "@types/jest": "^27.5.2",
+    "@types/react-window": "^1.8.7",
+    "axios": "^1.5.1",
+    "firebase": "^10.5.0",
+    "lightweight-charts": "^4.1.0",
+    "lodash": "^4.17.21",
+    "lottie-react": "^2.4.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-ga4": "^2.1.0",
+    "react-modal": "^3.16.1",
+    "react-query": "^3.39.3",
+    "react-router-dom": "^6.16.0",
     "react-scripts": "5.0.1",
+    "react-window": "^1.8.9",
+    "recoil": "^0.7.7",
+    "shortid": "^2.2.16",
+    "styled-components": "^6.0.8",
+    "sweetalert2": "^11.9.0",
     "typescript": "^4.9.5",
+    "uid": "^2.0.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
   },
+  "homepage": "https://kimpro.site/",
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -38,12 +56,23 @@
     ]
   },
   "devDependencies": {
+    "@types/lodash": "^4.14.200",
     "@types/node": "^20.8.4",
     "@types/react": "^18.2.27",
     "@types/react-dom": "^18.2.12",
+    "@types/react-modal": "^3.16.2",
+    "@types/shortid": "^0.0.31",
+    "@types/styled-components": "^5.1.28",
+    "brotli-webpack-plugin": "^1.1.0",
+    "compression-webpack-plugin": "^10.0.0",
+    "cra-bundle-analyzer": "^0.1.1",
+    "customize-cra": "^1.0.0",
     "eslint": "^8.51.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-prettier": "^5.0.0",
-    "prettier": "^3.0.3"
+    "gh-pages": "^6.0.0",
+    "prettier": "^3.0.3",
+    "react-app-rewired": "^2.2.1",
+    "speed-measure-webpack-plugin": "^1.5.0"
   }
 }
